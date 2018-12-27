@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2BCF25C21D44F5E00198DE9 /* EV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BCF25B21D44F5E00198DE9 /* EV3.swift */; };
+		C2BCF25E21D44FB300198DE9 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BCF25D21D44FB300198DE9 /* Sound.swift */; };
+		C2BCF26021D44FD200198DE9 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BCF25F21D44FD200198DE9 /* Display.swift */; };
+		C2BCF26221D4503F00198DE9 /* InputPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BCF26121D4503F00198DE9 /* InputPort.swift */; };
+		C2BCF26621D452D900198DE9 /* DisplayColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BCF26521D452D900198DE9 /* DisplayColor.swift */; };
+		C2BCF26821D453A200198DE9 /* LightSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BCF26721D453A200198DE9 /* LightSensor.swift */; };
+		C2BCF26A21D4541800198DE9 /* ColorValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BCF26921D4541800198DE9 /* ColorValue.swift */; };
+		C2BCF26C21D4549300198DE9 /* TouchSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BCF26B21D4549300198DE9 /* TouchSensor.swift */; };
+		C2BCF26E21D490CF00198DE9 /* DisplayFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BCF26D21D490CF00198DE9 /* DisplayFont.swift */; };
+		C2D0296821D4AAB100E77A24 /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D0296721D4AAB100E77A24 /* ImageName.swift */; };
+		C2D0296A21D4ABBB00E77A24 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D0296921D4ABBB00E77A24 /* Note.swift */; };
+		C2D0296C21D4AC0D00E77A24 /* SoundFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D0296B21D4AC0D00E77A24 /* SoundFile.swift */; };
+		C2D0296E21D4AC7E00E77A24 /* SoundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D0296D21D4AC7E00E77A24 /* SoundStyle.swift */; };
+		C92D6184F6EEA75BA8C6B695 /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D6A02919D4E45AAF8D2ED /* Motor.swift */; };
+		C92D622467D336F12F175915 /* UltrasonicSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D68B6B4366C4931CA75D0 /* UltrasonicSensor.swift */; };
+		C92D62CAC02A2B6076E840F6 /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D661E4707632EE5A56A51 /* Playground.swift */; };
+		C92D6357A581E8BB335B8F56 /* OutputPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D682F41E42F63FC9BA40D /* OutputPort.swift */; };
+		C92D67E59D44A2AC2DDD7358 /* GyroSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D640F373533120FD59321 /* GyroSensor.swift */; };
+		C92D6C4828D34785598A6546 /* BrickLightColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D67767C474B578D4A94C4 /* BrickLightColor.swift */; };
+		C92D6C8F46C318541290E9C6 /* BrickLightMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D6278D0D10B18D014989E /* BrickLightMode.swift */; };
+		C92D6F60B21E44982F049E65 /* InfraredSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92D691B1E5FB2B65EEB3845 /* InfraredSensor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C289A21D21D4B0F800EF0CF6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C289A21F21D4B1BA00EF0CF6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C2BCF25321D44F2A00198DE9 /* libev3playground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libev3playground.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BCF25B21D44F5E00198DE9 /* EV3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EV3.swift; sourceTree = "<group>"; };
+		C2BCF25D21D44FB300198DE9 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		C2BCF25F21D44FD200198DE9 /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		C2BCF26121D4503F00198DE9 /* InputPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPort.swift; sourceTree = "<group>"; };
+		C2BCF26521D452D900198DE9 /* DisplayColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayColor.swift; sourceTree = "<group>"; };
+		C2BCF26721D453A200198DE9 /* LightSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSensor.swift; sourceTree = "<group>"; };
+		C2BCF26921D4541800198DE9 /* ColorValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValue.swift; sourceTree = "<group>"; };
+		C2BCF26B21D4549300198DE9 /* TouchSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchSensor.swift; sourceTree = "<group>"; };
+		C2BCF26D21D490CF00198DE9 /* DisplayFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFont.swift; sourceTree = "<group>"; };
+		C2D0296721D4AAB100E77A24 /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
+		C2D0296921D4ABBB00E77A24 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		C2D0296B21D4AC0D00E77A24 /* SoundFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFile.swift; sourceTree = "<group>"; };
+		C2D0296D21D4AC7E00E77A24 /* SoundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundStyle.swift; sourceTree = "<group>"; };
+		C92D6278D0D10B18D014989E /* BrickLightMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrickLightMode.swift; sourceTree = "<group>"; };
+		C92D640F373533120FD59321 /* GyroSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GyroSensor.swift; sourceTree = "<group>"; };
+		C92D661E4707632EE5A56A51 /* Playground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
+		C92D67767C474B578D4A94C4 /* BrickLightColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrickLightColor.swift; sourceTree = "<group>"; };
+		C92D682F41E42F63FC9BA40D /* OutputPort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputPort.swift; sourceTree = "<group>"; };
+		C92D68B6B4366C4931CA75D0 /* UltrasonicSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UltrasonicSensor.swift; sourceTree = "<group>"; };
+		C92D691B1E5FB2B65EEB3845 /* InfraredSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfraredSensor.swift; sourceTree = "<group>"; };
+		C92D6A02919D4E45AAF8D2ED /* Motor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Motor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2BCF25121D44F2A00198DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2BCF24A21D44F2A00198DE9 = {
+			isa = PBXGroup;
+			children = (
+				C289A21F21D4B1BA00EF0CF6 /* README.md */,
+				C289A21D21D4B0F800EF0CF6 /* LICENSE */,
+				C2BCF26421D4518100198DE9 /* Playground */,
+				C2BCF26321D4517300198DE9 /* EV3 */,
+				C2BCF25421D44F2A00198DE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2BCF25421D44F2A00198DE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BCF25321D44F2A00198DE9 /* libev3playground.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BCF26321D4517300198DE9 /* EV3 */ = {
+			isa = PBXGroup;
+			children = (
+				C2BCF26121D4503F00198DE9 /* InputPort.swift */,
+				C2BCF25F21D44FD200198DE9 /* Display.swift */,
+				C2BCF25D21D44FB300198DE9 /* Sound.swift */,
+				C2BCF25B21D44F5E00198DE9 /* EV3.swift */,
+				C2BCF26521D452D900198DE9 /* DisplayColor.swift */,
+				C2BCF26721D453A200198DE9 /* LightSensor.swift */,
+				C2BCF26921D4541800198DE9 /* ColorValue.swift */,
+				C2BCF26B21D4549300198DE9 /* TouchSensor.swift */,
+				C2BCF26D21D490CF00198DE9 /* DisplayFont.swift */,
+				C92D640F373533120FD59321 /* GyroSensor.swift */,
+				C92D691B1E5FB2B65EEB3845 /* InfraredSensor.swift */,
+				C92D67767C474B578D4A94C4 /* BrickLightColor.swift */,
+				C92D6278D0D10B18D014989E /* BrickLightMode.swift */,
+				C92D6A02919D4E45AAF8D2ED /* Motor.swift */,
+				C92D682F41E42F63FC9BA40D /* OutputPort.swift */,
+				C92D68B6B4366C4931CA75D0 /* UltrasonicSensor.swift */,
+				C2D0296721D4AAB100E77A24 /* ImageName.swift */,
+				C2D0296921D4ABBB00E77A24 /* Note.swift */,
+				C2D0296B21D4AC0D00E77A24 /* SoundFile.swift */,
+				C2D0296D21D4AC7E00E77A24 /* SoundStyle.swift */,
+			);
+			path = EV3;
+			sourceTree = "<group>";
+		};
+		C2BCF26421D4518100198DE9 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				C92D661E4707632EE5A56A51 /* Playground.swift */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C2BCF24F21D44F2A00198DE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C2BCF25221D44F2A00198DE9 /* ev3playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BCF25721D44F2A00198DE9 /* Build configuration list for PBXNativeTarget "ev3playground" */;
+			buildPhases = (
+				C2BCF24F21D44F2A00198DE9 /* Headers */,
+				C2BCF25021D44F2A00198DE9 /* Sources */,
+				C2BCF25121D44F2A00198DE9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ev3playground;
+			productName = ev3playground;
+			productReference = C2BCF25321D44F2A00198DE9 /* libev3playground.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2BCF24B21D44F2A00198DE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ruoshi Li";
+				TargetAttributes = {
+					C2BCF25221D44F2A00198DE9 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = C2BCF24E21D44F2A00198DE9 /* Build configuration list for PBXProject "ev3playground" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2BCF24A21D44F2A00198DE9;
+			productRefGroup = C2BCF25421D44F2A00198DE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2BCF25221D44F2A00198DE9 /* ev3playground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2BCF25021D44F2A00198DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BCF26821D453A200198DE9 /* LightSensor.swift in Sources */,
+				C2BCF26C21D4549300198DE9 /* TouchSensor.swift in Sources */,
+				C2BCF25C21D44F5E00198DE9 /* EV3.swift in Sources */,
+				C2D0296C21D4AC0D00E77A24 /* SoundFile.swift in Sources */,
+				C2BCF26A21D4541800198DE9 /* ColorValue.swift in Sources */,
+				C2BCF26E21D490CF00198DE9 /* DisplayFont.swift in Sources */,
+				C2BCF26021D44FD200198DE9 /* Display.swift in Sources */,
+				C2D0296E21D4AC7E00E77A24 /* SoundStyle.swift in Sources */,
+				C2BCF25E21D44FB300198DE9 /* Sound.swift in Sources */,
+				C2BCF26621D452D900198DE9 /* DisplayColor.swift in Sources */,
+				C2BCF26221D4503F00198DE9 /* InputPort.swift in Sources */,
+				C2D0296A21D4ABBB00E77A24 /* Note.swift in Sources */,
+				C92D67E59D44A2AC2DDD7358 /* GyroSensor.swift in Sources */,
+				C92D6F60B21E44982F049E65 /* InfraredSensor.swift in Sources */,
+				C92D6C4828D34785598A6546 /* BrickLightColor.swift in Sources */,
+				C2D0296821D4AAB100E77A24 /* ImageName.swift in Sources */,
+				C92D6C8F46C318541290E9C6 /* BrickLightMode.swift in Sources */,
+				C92D6184F6EEA75BA8C6B695 /* Motor.swift in Sources */,
+				C92D6357A581E8BB335B8F56 /* OutputPort.swift in Sources */,
+				C92D622467D336F12F175915 /* UltrasonicSensor.swift in Sources */,
+				C92D62CAC02A2B6076E840F6 /* Playground.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2BCF25521D44F2A00198DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+			};
+			name = Debug;
+		};
+		C2BCF25621D44F2A00198DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+			};
+			name = Release;
+		};
+		C2BCF25821D44F2A00198DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		C2BCF25921D44F2A00198DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2BCF24E21D44F2A00198DE9 /* Build configuration list for PBXProject "ev3playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BCF25521D44F2A00198DE9 /* Debug */,
+				C2BCF25621D44F2A00198DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BCF25721D44F2A00198DE9 /* Build configuration list for PBXNativeTarget "ev3playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BCF25821D44F2A00198DE9 /* Debug */,
+				C2BCF25921D44F2A00198DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2BCF24B21D44F2A00198DE9 /* Project object */;
+}
